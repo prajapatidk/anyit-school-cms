@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Secrets & local config
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime / local data (if added later)
+uploads/
+tmp/
